@@ -1,1 +1,3 @@
-Hello_World.PrintHelloWorld();
+using Beecrowd.Beginner.Solutions;
+
+HelloWorld.PrintHelloWorld();
