@@ -23,6 +23,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Beecrowd.Beginner.Solutions\Beecrowd.Beginner.Solutions.csproj" />
+      <Content Include="xunit.runner.json" CopyToOutputDirectory="PreserveNewest" />
     </ItemGroup>
 
 </Project>
