@@ -3,7 +3,6 @@ using Xunit;
 
 namespace Beecrowd.Beginner.Tests;
 
-[Collection("Sequential")]
 public class AreaOfCircleTest
 {
     [Theory]
