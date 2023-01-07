@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Beecrowd
+﻿namespace Beecrowd.Beginner.Solutions
 {
-    class BhaskarasFormula
+    public class BhaskarasFormula
     {
-        public static void Run()
+        public static void Calculate()
         {
             string[] inputs = Console.ReadLine().Split(' ');
             double a = Convert.ToDouble(inputs[0]);
@@ -31,8 +25,8 @@ namespace Beecrowd
             double answer1 = (-b + Math.Sqrt(difference)) / (2 * a);
             double answer2 = (-b - Math.Sqrt(difference)) / (2 * a);
 
-            Console.WriteLine("R1 = " + String.Format("{0:0.00000}", answer1));
-            Console.WriteLine("R2 = " + String.Format("{0:0.00000}", answer2));
+            Console.WriteLine($"R1 = {answer1:0.00000}");
+            Console.WriteLine($"R2 = {answer2:0.00000}");
 
         }
     }
