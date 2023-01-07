@@ -9,7 +9,7 @@ public class SimpleSumTest
     [InlineData(30, 10, "SOMA = 40")]
     [InlineData(-30, 10, "SOMA = -20")]
     [InlineData(0, 0, "SOMA = 0")]
-    public void CallSumMethod_ShowCapitalXEqualSumOfTwoInputNumber(int number1, int number2, string expectedResult)
+    public void CallSumMethod_ShowCapitalSomaEqualSumOfTwoInputNumber(int number1, int number2, string expectedResult)
     {
         var stringWriter = new StringWriter();
         Console.SetOut(stringWriter);
